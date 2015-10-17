@@ -1,6 +1,6 @@
 ### DPDPlus
 
-DPDPlus is a utility for so-called HTTP DNS resolving, based on the API from [Dnspod](https://www.dnspod.cn/httpdns).
+DPDPlus is an utility for so-called HTTP DNS resolving, based on the API from [Dnspod](https://www.dnspod.cn/httpdns).
 
 ### Interface
 
@@ -37,7 +37,7 @@ DPDPlus is a utility for so-called HTTP DNS resolving, based on the API from [Dn
 
 ```objc
 
-//setup DPDPlus will update ips automatically
+//setup and DPDPlus will update ips automatically
 [DPDPlus registerDomains:@[@"api.github.com"]];
 
 //query 
